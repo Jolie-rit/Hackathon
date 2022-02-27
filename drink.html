@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Katherine Johnson</title>
+        
+
+    </head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid silver;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:45%;
+  -ms-transform: translateY(-50%,-50%);
+  transform: translateY(-50%,-50%);
+
+}
+
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+    <body  bgcolor="#77838E">
+        <h1 tabindex="0" style="color:rgb(70, 1, 14); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;" > Welcome to magic school </h1>
+        
+        <p style="color:white; text-align: center;">
+          You drink the potion and you feel the caffiene and other energy enhancing properties transforming you into a fully awake person who still has that nice buzz feel. You finished class and go to the quidditch field all of a sudden death eaters appeared and started to attack the school
+      </p>
+      <div class="container">
+        <div class="center">
+    <button  style="color: rgb(70, 1, 14); border: lightcoral; background:white;"onclick="window.location.href='run.html'"> RUN </button>
+    <button  style="color: rgb(70, 1, 14); border: lightcoral; background-color: slategray; color: rgb(70, 1, 14);"> stand there frozen in fear </button>
+  </div>
+  </div> 
+  </body>
+</html>
